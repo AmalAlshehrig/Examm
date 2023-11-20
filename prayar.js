@@ -3,7 +3,7 @@ btn =document.getElementById('hijri')
 btng =document.getElementById('gregorian')
 btnd=document.getElementById("day")
 btnt=document.getElementById("timings")
-fetch(' http://api.aladhan.com/v1/calendar/2017/4?latitude=51.508515&longitude=-0.1254872&method=2')
+fetch(' https://api.aladhan.com/v1/calendar/2017/4?latitude=51.508515&longitude=-0.1254872&method=2')
   .then((response) => response.json())
   .then((json) =>{ //console.log(json.data[0].timings)
 //   {
