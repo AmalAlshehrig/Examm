@@ -1,4 +1,4 @@
 if(!sessionStorage.getItem('user')){
-    window.location = 'login.html';
+    window.location = 'sngin.html';
     exit();
 }
