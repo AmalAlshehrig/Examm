@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+rel="stylesheet"
+/>
+    <title>Singin</title>
+</head>
+<body>
+    <header>
+        <!-- Intro settings -->
+        <style>
+          /* Default height for small devices */
+          #intro-example {
+            height: 400px;
+          }
+      
+          /* Height for devices larger than 992px */
+          @media (min-width: 992px) {
+            #intro-example {
+              height: 600px;
+            }
+          }
+        </style>
+        <!-- Background image -->
+        <div
+          id="intro-example"
+          class="p-5 text-center bg-image"
+          style="background-image: url('https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');"
+        >
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white bg-fixed w-50 h-50">
+                <div id="cont">
+                    <input placeholder="Name" id="username" type="text">
+                    <p id="pname"></p>
+                    <input placeholder="User" id="user" type="text">
+                    <p id="puser"></p>
+                    <input placeholder="PassWord" id="password" type="password">
+                    <p id="ppassword"></p>
+                    <input placeholder="Email" id="email" type="email">
+                    <p id="pemail"></p>
+                    <button id="Up" class="border-0">SingUp</button>
+                    <p>Do You Have Acount! <a href="login.html">Login</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+    <script src="script.js"></script>
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+></script>
+</body>
+</html>
